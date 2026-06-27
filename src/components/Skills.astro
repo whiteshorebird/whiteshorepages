@@ -1,0 +1,22 @@
+---
+import { skills } from "../data/skills";
+---
+
+<section id="skills" class="section">
+  <h2>Skills</h2>
+
+  <div class="skills-grid">
+    {
+      skills.map((skillGroup) => (
+        <section class="skill-card fade-in">
+          <h3>{skillGroup.category}</h3>
+          <ul>
+            {skillGroup.items.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</section>

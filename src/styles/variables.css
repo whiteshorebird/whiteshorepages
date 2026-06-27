@@ -1,0 +1,9 @@
+:root {
+  --color-bg: #f7f7f4;
+  --color-text: #222;
+  --color-border: #ddd;
+
+  --content-width: 960px;
+
+  --font-body: system-ui, sans-serif;
+}

@@ -1,0 +1,13 @@
+---
+const { work } = Astro.props;
+---
+
+<article class="work-card fade-in">
+  <p class="work-card__category">{work.category}</p>
+  <h3>{work.title}</h3>
+  <p>{work.description}</p>
+
+  <ul class="tag-list">
+    {work.tags.map((tag) => <li>{tag}</li>)}
+  </ul>
+</article>
