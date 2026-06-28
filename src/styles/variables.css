@@ -1,9 +1,72 @@
 :root {
+  /* ==========================
+     Color
+  ========================== */
+
   --color-bg: #f7f7f4;
-  --color-text: #222;
-  --color-border: #ddd;
+  --color-bg-alpha: rgb(247 247 244 / 80%);
+  --color-surface: #ffffff;
+  --color-surface-muted: #f2f2ef;
+  --color-text: #222222;
+  --color-text-light: #666666;
+  --color-border: #dddddd;
 
-  --content-width: 960px;
-
+  /* ==========================
+     Typography
+  ========================== */
   --font-body: system-ui, sans-serif;
+  --font-xs: 12px;
+  --font-sm: 14px;
+  --font-md: 16px;
+  --font-lg: 20px;
+  --font-xl: 32px;
+  --font-2xl: 48px;
+
+  --font-heading-md: clamp(32px, 5vw, 48px);
+
+  /* ==========================
+     Spacing
+  ========================== */
+  --content-width: 960px;
+  --text-width: 680px;
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 20px;
+  --space-2xl: 24px;
+  --space-3xl: 32px;
+  --space-4xl: 40px;
+  --space-section: 80px;
+
+  /* ==========================
+     Radius
+  ========================== */
+
+  --radius-md: 16px;
+  --radius-full: 999px;
+
+  /* ==========================
+     Shadow
+  ========================== */
+
+  --shadow-sm: 0 2px 8px rgb(0 0 0 / 8%);
+  --shadow-md: 0 8px 24px rgb(0 0 0 / 10%);
+
+  --shadow-card: 0 16px 40px rgb(0 0 0 / 8%);
+
+  /* ==========================
+     Animation
+  ========================== */
+  --duration-fast: 0.2s;
+  --duration-normal: 0.8s;
+
+  --ease-standard: ease;
+
+  /* ==========================
+     Z-index
+  ========================== */
+
+  --z-header: 10;
 }
